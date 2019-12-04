@@ -1,12 +1,14 @@
-## Welcome to GitHub Pages
+## Welcome to PJ Pages
 
-You can use the [editor on GitHub](https://github.com/PJdacainiao/pjpjpj.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+### JNI学习
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+[JNI资料](https://zhuanlan.zhihu.com/p/25554150)
 
-### Markdown
+### Jython学习
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### 遇到的问题
+1. Jython 2.7.1会遇到Error Loading Python DLL错误，通过Google查到的方法：更新VC2008不能解决问题，使用PyInstaller将jython.py生成jython.exe仍然不能解决问题。最后下载使用Jython 2.7.0解决问题。
+2. 使用Jython在Java中调用Python代码，在Eclispse中只要将py文件放置在src目录下就可以引用到py文件实例化的类。如果出现No Module named错误，说明是类的路径或者类名错误，如果是Class cannot import错误，说明找到了类但不能正确导入，如果出现Exception In Thread Main, NotImplementError,说明找到了对应的class,但是class并没有正确实例化接口，有可能是自己的py文件中有方法名称写错了，Eclipse不会指明具体的错误。
 
 ```markdown
 Syntax highlighted code block
