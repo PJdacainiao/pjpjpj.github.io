@@ -27,7 +27,7 @@ buildingClass = interpreter.get("Building");
 ### git资料
 中文版资料 http://gitbook.liuhui998.com/index.html
 
-[中文版资料]()
+[中文版资料](https://github.com/PJdacainiao/pjpjpj.github.io/blob/master/index1.md)
 
 
 ### Jekyll Themes
