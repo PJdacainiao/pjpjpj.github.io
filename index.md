@@ -12,7 +12,8 @@
 3. 在Itellij IDEA中使用jython需要设置全局的python SDK,并且.py文件需要放置在resource目录(如果是gradle构建的)，gradle构建的项目引入Lib需要在build文件中引用，使用project Structure加入module dependence找不到依赖，在普通的JAVA project中，这种方式是可以的。
 4. 在使用构建工具如gradle的项目中使用jython中的pythonInterpreter会遇到如下错误，需要想、添加pyInterpreter的初始化参数才可以。
 ```
-ImportError: Cannot import site module and its dependencies: No module named site
+ImportError: Cannot import site module and its dependencies:
+             No module named site
 ```
 ```
 #增加的初始化语句
@@ -30,10 +31,7 @@ buildingClass = interpreter.get("Building");
 [中文版资料](https://github.com/PJdacainiao/pjpjpj.github.io/blob/master/index1.md)
 
 
-### Jekyll Themes
+## java学习
+### 循环引用
+[为什么通过引用计数会产生循环引用，且发生循环引用时只能手动释放内存？][(https://www.zhihu.com/question/21539353/answer/95667088)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PJdacainiao/pjpjpj.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
