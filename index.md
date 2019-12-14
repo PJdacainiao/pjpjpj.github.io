@@ -31,7 +31,6 @@ buildingClass = interpreter.get("Building");
 [中文版资料](https://github.com/PJdacainiao/pjpjpj.github.io/blob/master/index1.md)
 
 
-## java学习
-### 循环引用
-[为什么通过引用计数会产生循环引用，且发生循环引用时只能手动释放内存？][(https://www.zhihu.com/question/21539353/answer/95667088)
+### java学习
+[为什么通过引用计数会产生循环引用，且发生循环引用时只能手动释放内存？](https://www.zhihu.com/question/21539353/answer/95667088)
 
